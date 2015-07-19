@@ -13,6 +13,17 @@ layout: default
   {% endif %}
   <h1>{{ page.page-title }}</h1>
 </div>
+{% if page.case-photo-reel %}
+  <div class="case-photo-reel">
+    {% for casephoto in page.case-photo-reel %}
+      <a href="{{ casephoto.src | prepend: site.baseurl }}"
+         data-lightbox="{{ casephoto.data-lightbox }}"
+         data-title="{{ casephoto.data-title }}">
+        <img src="{{ casephoto.src | prepend: site.baseurl }}"/>
+      </a>
+    {% endfor %}
+  </div>
+{% endif %}
 <div class="page-content">
   {{ content }}
 </div>

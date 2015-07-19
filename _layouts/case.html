@@ -10,10 +10,12 @@ layout: page
     <div class="summary-title">Timeframe</div>
     <div class="summary-text">{{ page.timeframe }}</div>
   </div>
+  {% if page.demo-link %}
   <div class="demo">
     <div class="summary-title">Demo</div>
-    <a class="summary-link" href="">{{ page.demo-link }}</a>
+    <a class="summary-link" href="{{ page.demo-link }}">{{ page.demo-link }}</a>
   </div>
+  {% endif %}
 
 </div>
 

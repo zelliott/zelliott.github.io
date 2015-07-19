@@ -1,3 +1,29 @@
+.case-photo-reel {
+  max-width: $site-max-width;
+  margin: 40px auto;
+  padding: 0 20px;
+
+  a {
+    cursor: pointer;
+    display: inline-block;
+    height: 80px;
+    opacity: 0.75;
+    vertical-align: top;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    img {
+      height: 100%;
+    }
+  }
+
+  a + a {
+    margin-left: 16px;
+  }
+}
+
 .case-summary {
   margin-bottom: 40px;
 
@@ -11,7 +37,7 @@
     }
 
     .summary-text {
-
+      color: $case-summary-text-font-color;
     }
 
     .summary-link {
@@ -39,5 +65,5 @@
 }
 
 .case-paragraph {
-  
+
 }

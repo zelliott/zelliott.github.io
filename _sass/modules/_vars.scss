@@ -37,6 +37,9 @@ $about-links-hover-font-color: #222;
 
 // Portfolio
 $portfolio-title-font-color: #bbb;
+$portfolio-title-link-bottom-border-color: #ddd;
+$portfolio-title-link-bottom-hover-border-color: #bbb;
+$portfolio-title-link-hover-font-color: #999;
 $portfolio-square-background-color: #eee;
 $portfolio-square-hover-background-color: #222;
 $portfolio-square-font-color: #999;
@@ -49,3 +52,8 @@ $case-summary-link-border-color: $light-blue;
 $case-summary-link-font-color: $blue;
 $case-summary-link-hover-border-color: darken($light-blue, 10%);
 $case-summary-link-hover-font-color: $blue;
+$case-summary-text-font-color: #666;
+
+// Footer
+$footer-background-color: #eee;
+$footer-font-color: #bbb;

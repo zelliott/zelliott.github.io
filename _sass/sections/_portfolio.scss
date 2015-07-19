@@ -1,5 +1,15 @@
 .portfolio-title {
   color: $portfolio-title-font-color;
+
+  > a {
+    border-color: $portfolio-title-link-bottom-border-color;
+    margin-left: 10px;
+
+    &:hover {
+      border-color: $portfolio-title-link-bottom-hover-border-color;
+      color: $portfolio-title-link-hover-font-color;
+    }
+  }
 }
 
 .portfolio {

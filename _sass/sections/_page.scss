@@ -2,7 +2,6 @@
   background: $page-title-background-color;
   color: $page-title-font-color;
   padding: 160px 20px 40px 20px;
-  margin-bottom: 40px;
 
   .page-pre-title {
     color: $page-pre-title-font-color;
@@ -24,5 +23,5 @@
 .page-content {
   max-width: $site-max-width;
   padding: 0 20px;
-  margin: 0 auto;
+  margin: 40px auto 0 auto;
 }

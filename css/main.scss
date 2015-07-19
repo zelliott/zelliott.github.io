@@ -51,12 +51,14 @@ $on-laptop:        800px;
         "modules/mixins",
         "modules/helpers",
         "base",
-        // "layout",
         // "syntax-highlighting",
         "sections/sidebar",
         "sections/portfolio",
         "sections/about",
         "sections/page",
         "sections/case",
-        "typography"
+        "sections/footer",
+        "typography",
+        "markdown",
+        "vendors/lightbox"
 ;
