@@ -31,9 +31,25 @@
       background: $portfolio-square-hover-background-color;
       color: $portfolio-square-hover-font-color;
     }
+
+    img {
+      width: $portfolio-size - 60px;
+      vertical-align: middle;
+    }
   }
 
   > a + a {
     margin-left: 20px;
+  }
+}
+
+@media (max-width: 752px) {
+  .portfolio {
+    a {
+      margin-bottom: 4px;
+    }
+    a + a {
+      margin: 0;
+    }
   }
 }

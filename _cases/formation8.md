@@ -7,6 +7,7 @@ type: work
 permalink: /portfolio/formation8/
 tags: MongoDB, NodeJS, Jade, JQuery, Sass
 timeframe: Aug 2014 - Sep 2014
+thumb: /public/imgs/thumbs/formation8.png
 case-photo-reel:
  - src: /public/imgs/cases/octogon_0.png
    data-lightbox: octogon

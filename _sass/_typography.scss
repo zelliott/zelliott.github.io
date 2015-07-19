@@ -20,6 +20,7 @@ a {
 
 .page-title {
   font: 50px Baskerville;
+  line-height: 60px !important;
 }
 
 .case-summary .summary-title {
@@ -30,6 +31,7 @@ a {
 
 .case-summary .summary-text {
   font: 18px Baskerville;
+  line-height: 26px !important;
 }
 
 .case-summary .summary-link {
@@ -56,7 +58,6 @@ a {
 
 .portfolio > a {
   font-size: 20px;
-  font-weight: 600;
 }
 
 .sidebar {

@@ -12,8 +12,8 @@ permalink: /portfolio/
   {% for case in site.cases %}
     {% if case.type == 'work' %}
       <a href="{{ case.url | prepend: site.baseurl }}">
-        {% if case.image %}
-          <img src="{{ case.image | prepend: '../public/imgs/cases/' }} "/>
+        {% if case.thumb %}
+          <img src="{{ case.thumb | prepend: site.baseurl }} "/>
         {% else %}
           <span>{{ case.title }}</span>
         {% endif %}
@@ -30,8 +30,8 @@ permalink: /portfolio/
   {% for case in site.cases %}
     {% if case.type == 'project' %}
       <a href="{{ case.url | prepend: site.baseurl }}">
-        {% if case.image %}
-          <img src="{{ case.image | prepend: '../public/imgs/cases/' }} "/>
+        {% if case.thumb %}
+          <img src="{{ case.thumb | prepend: site.baseurl }} "/>
         {% else %}
           <span>{{ case.title }}</span>
         {% endif %}

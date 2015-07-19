@@ -8,6 +8,7 @@ permalink: /portfolio/intquest/
 tags: MongoDB, NodeJS, AngularJS, Sass
 timeframe: October 2014 - Present
 demo-link: http://intquest.herokuapp.com
+thumb: /public/imgs/thumbs/intquest.png
 case-photo-reel:
  - src: /public/imgs/cases/intquest_0.png
    data-lightbox: intquest

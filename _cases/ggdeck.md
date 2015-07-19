@@ -7,6 +7,8 @@ type: project
 permalink: /portfolio/ggdeck/
 tags: Ruby on Rails, Javascript, Sass
 timeframe: Jan 2014 - April 2014
+demo-link: http://ggdeck.herokuapp.com
+thumb: /public/imgs/thumbs/ggdeck.png
 case-photo-reel:
  - src: /public/imgs/cases/ggdeck_0.png
    data-lightbox: ggdeck

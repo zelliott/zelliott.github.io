@@ -8,6 +8,7 @@ permalink: /portfolio/addepar/
 tags: Design, Sass, JQuery, ATS
 timeframe: Jan 2015
 demo-link: http://addepar.herokuapp.com
+thumb: /public/imgs/thumbs/addepar.png
 case-photo-reel:
  - src: /public/imgs/cases/addepar_0.png
    data-lightbox: addepar
