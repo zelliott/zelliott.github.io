@@ -1,0 +1,19 @@
+.about {
+  color: $about-font-color;
+  max-width: $about-blurb-max-width;
+
+  .about-links {
+    margin-top: 40px;
+
+    a {
+
+      &:hover {
+        color: $about-links-hover-font-color;
+      }
+    }
+
+    a + a {
+      margin-left: 20px;
+    }
+  }
+}

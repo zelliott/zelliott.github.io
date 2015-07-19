@@ -1,0 +1,36 @@
+---
+layout: page
+title: Portfolio
+page-title: Portfolio
+permalink: /portfolio/
+---
+
+<div class="portfolio-title">Work</div>
+<div class="portfolio">
+  {% for case in site.cases %}
+    {% if case.type == 'work' %}
+      <a href="{{ case.url | prepend: site.baseurl }}">
+        {% if case.image %}
+          <img src="{{ case.image | prepend: '../public/imgs/cases/' }} "/>
+        {% else %}
+          <span>{{ case.title }}</span>
+        {% endif %}
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<div class="portfolio-title">Projects</div>
+<div class="portfolio">
+  {% for case in site.cases %}
+    {% if case.type == 'project' %}
+      <a href="{{ case.url | prepend: site.baseurl }}">
+        {% if case.image %}
+          <img src="{{ case.image | prepend: '../public/imgs/cases/' }} "/>
+        {% else %}
+          <span>{{ case.title }}</span>
+        {% endif %}
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>

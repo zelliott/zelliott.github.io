@@ -1,0 +1,33 @@
+{
+  "work":
+  [
+    {
+      "name": "Socrata",
+      "url": "/portfolio/socrata/"
+    },
+    {
+      "name": "Formation | 8"
+    },
+    {
+      "name": "Nebu"
+    },
+    {
+      "name": "Microsoft"
+    }
+  ],
+  "projects":
+  [
+    {
+      "name": "Addepar"
+    },
+    {
+      "name": "Intquest"
+    },
+    {
+      "name": "GGDeck"
+    },
+    {
+      "name": "Junglr"
+    }
+  ]
+}

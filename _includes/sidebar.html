@@ -1,0 +1,18 @@
+<div class="sidebar">
+  <div class="candy-bar">
+    <div class="bar-icon-box">
+      <i class="fa fa-bars"></i>
+    </div>
+    Zack Elliott
+  </div>
+  <div class="sidebar-list">
+    {% for page in site.pages %}
+      {% if page.title %}
+        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      {% endif %}
+    {% endfor %}
+
+    <a href="../public/docs/resume.html">Resume</a>
+    <a href="mailto:zelliottm@gmail.com">Contact</a>
+  </div>
+</div>

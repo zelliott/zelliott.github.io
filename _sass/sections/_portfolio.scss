@@ -1,0 +1,29 @@
+.portfolio-title {
+  color: $portfolio-title-font-color;
+}
+
+.portfolio {
+  margin: 40px 0;
+  width: 100%;
+
+  > a {
+    background: $portfolio-square-background-color;
+    color: $portfolio-square-font-color;
+    display: inline-block;
+    height: $portfolio-size;
+    line-height: $portfolio-size;
+    width: $portfolio-size;
+    margin-bottom: 20px;
+    vertical-align: top;
+    text-align: center;
+
+    &:hover {
+      background: $portfolio-square-hover-background-color;
+      color: $portfolio-square-hover-font-color;
+    }
+  }
+
+  > a + a {
+    margin-left: 20px;
+  }
+}

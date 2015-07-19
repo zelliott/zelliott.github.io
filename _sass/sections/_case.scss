@@ -1,0 +1,43 @@
+.case-summary {
+  margin-bottom: 40px;
+
+  > div {
+    display: inline-block;
+    vertical-align: top;
+
+    .summary-title {
+      color: $case-summary-title-font-color;
+      margin-bottom: 20px;
+    }
+
+    .summary-text {
+
+    }
+
+    .summary-link {
+      border-color: $case-summary-link-border-color;
+      color: $case-summary-link-font-color;
+
+      &:hover {
+        border-color: $case-summary-link-hover-border-color;
+        color: $case-summary-link-hover-font-color;
+      }
+    }
+  }
+
+  .keywords {
+    width: 40%;
+  }
+
+  .timeframe {
+    width: 30%;
+  }
+
+  .demo {
+    width: 29%;
+  }
+}
+
+.case-paragraph {
+  
+}

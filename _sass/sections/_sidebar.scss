@@ -1,0 +1,49 @@
+.sidebar {
+  top: 40px;
+  position: fixed;
+  width: $sidebar-width;
+  z-index: 2;
+
+  .candy-bar {
+    background: $sidebar-background-color;
+    border-right: 2px solid #000;
+    color: $sidebar-font-color;
+    cursor: pointer;
+    height: $sidebar-height;
+    line-height: $sidebar-height;
+    padding-right: 20px;
+
+    .bar-icon-box {
+      background: $sidebar-accent-color;
+      display: inline-block;
+      line-height: $sidebar-height;
+      padding: 0 15px;
+      margin-right: 20px;
+    }
+  }
+
+  .sidebar-list {
+    display: none;
+
+    a {
+      border-left: 40px solid darken($dark-blue, 10%);
+      background: $sidebar-list-background-color;
+      color: $sidebar-list-item-font-color;
+      display: block;
+      padding: 0 20px;
+      height: $sidebar-list-item-height;
+      line-height: $sidebar-list-item-height;
+      width: $sidebar-width - 80px;
+
+      &:hover {
+        background: $sidebar-list-hover-background-color;
+        border-color: darken($dark-blue, 20%);
+        color: $sidebar-list-item-hover-font-color;
+      }
+
+      &.active {
+
+      }
+    }
+  }
+}

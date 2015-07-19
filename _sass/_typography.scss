@@ -1,0 +1,63 @@
+body,
+input,
+textarea,
+button {
+  color: $site-font-color;
+  font: 16px Avenir Next;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.page-pre-title {
+  font: 22px Baskerville;
+}
+
+.page-title {
+  font: 50px Baskerville;
+}
+
+.case-summary .summary-title {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.case-summary .summary-text {
+  font: 18px Baskerville;
+}
+
+.case-summary .summary-link {
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  font: 18px Baskerville;
+}
+
+.case-paragraph {
+  font: 22px Baskerville;
+  line-height: 36px !important;
+}
+
+.about {
+  font: 22px Baskerville;
+}
+
+.portfolio-title {
+  font-size: 20px;
+}
+
+.portfolio > a {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sidebar {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
