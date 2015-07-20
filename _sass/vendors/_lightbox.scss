@@ -1,6 +1,6 @@
 /* Preload images */
 body:after {
-  content: url(../img/close.png) url(../img/loading.gif) url(../img/prev.png) url(../img/next.png);
+  // content: url(../img/close.png) url(../img/loading.gif) url(../img/prev.png) url(../img/next.png);
   display: none;
 }
 
@@ -69,7 +69,7 @@ body:after {
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background: url(../img/loading.gif) no-repeat;
+  // background: url(../img/loading.gif) no-repeat;
 }
 
 .lb-nav {
@@ -87,7 +87,7 @@ body:after {
 
 .lb-nav a {
   outline: none;
-  background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+  // background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
 }
 
 .lb-prev, .lb-next {

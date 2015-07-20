@@ -1,9 +1,12 @@
+$serif-font: Baskerville, Garamond;
+$sans-serif-font: Avenir Next, Helvetica Neue;
+
 body,
 input,
 textarea,
 button {
   color: $site-font-color;
-  font: 16px Avenir Next;
+  font: 16px $sans-serif-font;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
 }
@@ -15,11 +18,11 @@ a {
 }
 
 .page-pre-title {
-  font: 22px Baskerville;
+  font: 22px $serif-font;
 }
 
 .page-title {
-  font: 50px Baskerville;
+  font: 50px $serif-font;
   line-height: 60px !important;
 }
 
@@ -30,19 +33,19 @@ a {
 }
 
 .case-summary .summary-text {
-  font: 18px Baskerville;
+  font: 18px $serif-font;
   line-height: 26px !important;
 }
 
 .case-summary .summary-link {
   border-bottom-width: 4px;
   border-bottom-style: solid;
-  font: 18px Baskerville;
+  font: 18px $serif-font;
 }
 
 .case-paragraph,
 .about {
-  font: 22px Baskerville;
+  font: 22px $serif-font;
   line-height: 36px !important;
 }
 
