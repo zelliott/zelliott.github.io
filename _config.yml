@@ -1,7 +1,7 @@
 # Site settings
 title: Hi, I'm Zack Elliott
 email: zelliottm@gmail.com
-description: Personal website of Zack Elliott: economics + computer science dual degree student at Penn.  Previously Socrata, Formation 8, Microsoft. 
+description: "Personal website of Zack Elliott: economics + computer science dual degree student at Penn.  Previously Socrata, Formation 8, Microsoft." 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://zelliottm.com" # the base hostname & protocol for your site
 github_username:  zelliott
