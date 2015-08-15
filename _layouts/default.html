@@ -1,20 +1,9 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
   <body>
-
-    {% include sidebar.html %}
-
-    <div class="container">
-      {{ content }}
-    </div>
-
-    {% include footer.html %}
-
+    {{ content }}
   </body>
-
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -23,6 +12,5 @@
 
     ga('create', 'UA-56750856-1', 'auto');
     ga('send', 'pageview');
-
   </script>
 </html>

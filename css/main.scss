@@ -1,64 +1,73 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Front matter needed for SCSS --> CSS
 ---
-@charset "utf-8";
 
+$blue: #0E91FF;
+$dark-blue: #286CA8;
+$yellow: #FFCF31;
 
-
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+body {
+  border-top: 10px solid $blue;
+  font-family: Helvetica Neue, Helvetica;
+  margin: 0;
+  padding: 40px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
+.content {
+  color: #111;
+  margin: auto;
+  max-width: 650px;
 
+  h1 {
+    font-size: 40px;
+    font-style: italic;
+    font-family: Georgia, Times New Roman;
+    line-height: 1.6em;
+    margin: 0;
+    padding-bottom: 20px;
+  }
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "reset",
-        "modules/vars",
-        "modules/mixins",
-        "modules/helpers",
-        "base",
-        // "syntax-highlighting",
-        "sections/sidebar",
-        "sections/portfolio",
-        "sections/about",
-        "sections/page",
-        "sections/case",
-        "sections/footer",
-        "typography",
-        "markdown",
-        "vendors/lightbox"
-;
+  ul,
+  p {
+    font-size: 18px;
+    line-height: 1.8em;
+  }
+
+  p {
+    a {
+      color: $blue;
+
+      &:hover {
+        color: $dark-blue;
+      }
+    }
+  }
+
+  ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 20px 60px 20px 0;
+    padding: 0;
+    vertical-align: top;
+
+    a {
+      color: #999;
+      display: block;
+      font-size: 16px;
+
+      &:hover {
+        color: #666;
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .highlight {
+    background: $yellow;
+  }
+}

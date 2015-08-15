@@ -1,20 +1,20 @@
 ---
-layout: page
-title: Hi, I'm Zack Elliott
-sidebar-title: About
-page-title: Hi, I'm Zack Elliott.
+layout: default
 permalink: /
 ---
 
-<div class="about">
-  Student at the University of Pennsylvania, The Wharton School.  Pursuing a dual degree in Economics and Computer Science.
-  <br />
-  <br />
-  I enjoy applying management, computer science, and design concepts to solve tough problems.
-
-  <div class="about-links">
-    <a href="https://www.linkedin.com/in/zackelliott"><i class="fa fa-linkedin"></i></a>
-    <a href="https://github.com/zelliott"><i class="fa fa-github"></i></a>
-    <a href="https://angel.co/zelliott"><i class="fa fa-angellist"></i></a>
-  </div>
+<div class="content">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.blurb }}</p>
+  <p>Find examples of my web development work on <a href="http://{{ site.linkedin }}">LinkedIn</a> and <a href="http://{{ site.github }}">Github</a>, follow me on <a href="http://{{ site.angellist }}">Angellist</a>, or get in touch through the links below.
+  </p>
+  <ul>
+    <li><a href="http://{{ site.linkedin }}">{{ site.linkedin }}</a></li>
+    <li><a href="http://{{ site.github }}">{{ site.github }}</a></li>
+    <li><a href="http://{{ site.angellist }}">{{ site.angellist }}</a></li>
+  </ul>
+  <ul>
+    <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+    <li><a href="{{ site.resume }}">resume</a></li>
+  </ul>
 </div>
