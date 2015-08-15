@@ -1,17 +1,11 @@
 # Site settings
-title: Hi, I'm Zack Elliott
-email: zelliottm@gmail.com
-description: "Personal website of Zack Elliott: economics + computer science dual degree student at Penn.  Previously Socrata, Formation 8, Microsoft." 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://zelliottm.com" # the base hostname & protocol for your site
-github_username:  zelliott
-
-# Build settings
-markdown: kramdown
-
-collections:
-  cases:
-    output: true
-
-gems:
-  - jekyll-redirect-from
+title: "Hi, I'm Zack Elliott."
+email: "zelliottm@gmail.com"
+description: "Personal website of Zack Elliott: economics + computer science dual degree student at Penn.  Previously Socrata, Formation 8, Microsoft."
+blurb: Junior at the University of Pennsylvania, The Wharton School, pursuing a dual degree in Economics and Computer Science.  Previously Socrata, Formation 8, and Microsoft.
+baseurl: ""
+url: "http://zelliottm.com"
+github: github.com/zelliott
+linkedin: linkedin.com/in/zackelliott
+angellist: angel.co/zelliott
+resume: "/public/docs/resume.pdf"
