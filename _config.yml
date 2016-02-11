@@ -1,8 +1,8 @@
 # Site settings
-title: "Hi, I'm Zack Elliott."
+title: "Zack Elliott"
 email: "zelliottm@gmail.com"
-description: "Personal website of Zack Elliott: economics + computer science dual degree student at Penn.  Previously Socrata, Formation 8, Microsoft."
-blurb: Junior at the University of Pennsylvania, The Wharton School, pursuing a dual degree in Economics and Computer Science.  Previously Socrata, Formation 8, and Microsoft.
+description: "Personal website of Zack Elliott: statistics + computer science dual degree student at Penn."
+blurb: Junior at the University of Pennsylvania, The Wharton School, pursuing a dual degree in Computer Science and Statistics.  Incoming 2016 Software Engineering Intern at Microsoft.  Javascript TA.
 baseurl: ""
 url: "http://zelliottm.com"
 github: github.com/zelliott
