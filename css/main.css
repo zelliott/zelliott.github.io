@@ -1,0 +1,11 @@
+html {
+  color: #222;
+  font-size: 1.1em;
+  line-height: 1.4;
+  margin: 1.1em;
+  margin-top: 0;
+}
+
+section {
+  max-width: 32em;
+}

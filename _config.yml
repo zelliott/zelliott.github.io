@@ -1,11 +1,6 @@
 # Site settings
 title: "Zack Elliott"
 email: "zelliottm@gmail.com"
-description: "Personal website of Zack Elliott: statistics + computer science dual degree student at Penn."
-blurb: Senior at Penn pursuing a dual degree in Computer Science and Statistics.  Incoming 2017 Software Engineer at Microsoft.
+description: "Zack Elliott, Software Development Engineer at Microsoft.  Works with React, Redux, and Typescript.  Majored in Computer Science and Statistics."
 baseurl: ""
 url: "http://zelliottm.com"
-github: github.com/zelliott
-linkedin: linkedin.com/in/zackelliott
-angellist: angel.co/zelliott
-resume: "/resume.pdf"
